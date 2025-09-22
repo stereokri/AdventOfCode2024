@@ -99,7 +99,7 @@ public:
             if(lock_key_line == "#####"){
                 insert(lock_key);
             }
-            else if(lock_key_line == "....."){
+            else{
                 keys.push_back(lock_key);
             }
         }
